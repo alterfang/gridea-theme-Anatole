@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+ <head>
+  <%- include('./includes/head', { siteTitle: themeConfig.siteName }) %>
+ </head>
+ <body>
+        <%- include('./includes/about') %>
+  <div class="main">
+        <%- include('./includes/dh') %>
+   <div class="autopagerize_page_element">
+    <div class="content">
+     <div class="archive animated fadeInDown">
+      <ul class="list-with-title">
+       <div class="archive">
+      <% let years = []; posts.forEach((item) => { const year = item.date.substring(0, 4); if (!years.includes(year)) { years.push(year); } }); %>
+      <% years.forEach(function(year) { %>
+        <div class="listing-title">
+                <%- year %>
+        </div>
+
+        <ul class="listing">
+
+                <% posts.forEach(function(post) { %>
+                    <%if (post.date.indexOf(year) !== -1) { %>         
+         <div class="listing-item">
+          <div class="listing-post">
+           <a href="<%= post.link %>" title="<%= post.title %>"><%= post.title %></a>
+           <div class="post-time">
+            <span class="date"><%= post.dateFormat %> </span>
+           </div>
+          </div>
+         </div>
+         <% } %>
+         <% }); %>
+        </ul>
+        <% }); %>	
+       </div>
+       <div class="pagination">
+        <ul class="clearfix"></ul>
+       </div>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+  <%- include('./includes/footjs') %>
+ </body>
+</html>

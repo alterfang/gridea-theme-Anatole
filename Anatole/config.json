@@ -1,0 +1,115 @@
+{
+  "name": "Anatole",
+  "version": "1.0",
+  "author": "文中君",
+  "repository": "https://github.com/alterfang/gridea-theme-Anatole",
+  "customConfig": [
+   
+    {
+      "name": "gxmz",
+      "label": "博主名字",
+      "group": "名片",
+      "value": "",
+      "type": "input",
+      "note": "请输入博主名字"
+    },
+   
+    {
+      "name": "rss",
+      "label": "rss",
+      "group": "社交",
+      "value": "",
+      "type": "input",
+      "note": "链接地址"
+    },
+      {
+        "name": "twitter",
+        "label": "twitter",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
+      {
+        "name": "facebook",
+        "label": "facebook",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
+      {
+        "name": "github",
+        "label": "github",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
+      {
+        "name": "linkedin",
+        "label": "linkedin",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
+      {
+        "name": "youtube",
+        "label": "youtube",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
+      {
+        "name": "instagram",
+        "label": "instagram",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
+      {
+        "name": "tumblr",
+        "label": "tumblr",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
+      {
+        "name": "weibo",
+        "label": "微博",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
+      {
+        "name": "qq",
+        "label": "QQ",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
+      {
+        "name": "send",
+        "label": "Telegram",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
+    {
+        "name": "ga",
+        "label": "跟踪 ID",
+        "group": "谷歌统计",
+        "value": "",
+        "type": "input",
+        "note": "UA-xxxxxxxxx-x"
+      }
+
+]
+}   

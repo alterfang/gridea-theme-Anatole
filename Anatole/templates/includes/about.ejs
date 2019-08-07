@@ -1,0 +1,38 @@
+ <div class="sidebar animated fadeInDown">
+   <div class="logo-title">
+    <div class="title">
+     <img src="<%= themeConfig.domain %>/images/avatar.png?v=<%= site.utils.now %>" style="width:127px;" />
+<% if (site.customConfig.gxmz) { %>
+     <h3 title=""><a href="/"><%= site.customConfig.gxmz %></a></h3>
+<% } %>
+     <div class="description">
+      <p><%- themeConfig.siteDescription %></p>
+     </div>
+    </div>
+   </div>
+   <ul class="social-links">
+<% ['rss','twitter', 'facebook', 'github', 'linkedin', 'youtube','instagram','weibo','qq','send'].forEach((item) => { %>
+<% if (site.customConfig[item]) { %>
+    <li><a href="<%= site.customConfig[item] %>"><i class="fa fa-<%= item %>"></i></a></li>
+ <% } %>
+    <% }) %>
+
+   </ul>
+   <div class="footer">
+    <div class="by_farbox">
+   <%- themeConfig.footerInfo %>
+    </div>
+    <% if (site.customConfig.ga) { %>
+<script async src="https://www.googletagmanager.com/gtag/js?id=<%= site.customConfig.ga %>"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '<%= site.customConfig.ga %>');
+</script>
+<% } %>
+
+    </div>
+   </div>
+  </div>
