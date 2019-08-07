@@ -8,10 +8,10 @@
 # 截图：
 
 ## 首页
-![首页](https://www.z4a.net/images/2019/08/07/88cadd6349216d19db8169715ff0541e.jpg)
+![首页](https://i.loli.net/2019/08/07/Wy1vDlLEc5YHeCh.jpg)
 ## 内容页
-![文章页](https://www.z4a.net/images/2019/08/07/1b32711c161069ef76a10aa34572c6c8.jpg)
+![文章页](https://i.loli.net/2019/08/07/zmpdI2ArfC8cUas.jpg)
 ## 归档页
-![归档页](https://www.z4a.net/images/2019/08/07/f7f6dc0c5bf21156869afe0188adacde.jpg)
+![归档页](https://i.loli.net/2019/08/07/56d7cTaet9GIZs3.jpg)
 ## 标签列表页
-![标签页面](https://www.z4a.net/images/2019/08/07/e7231e05e863e73e682f66e2eba6209e.jpg)
+![标签页面](https://i.loli.net/2019/08/07/B9zGmTOKIxNnCZH.jpg)
