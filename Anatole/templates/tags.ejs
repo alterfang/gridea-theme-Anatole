@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+ <head>
+   <%- include('./includes/head', { siteTitle: themeConfig.siteName }) %>
+ </head>
+ <body>
+    <%- include('./includes/about') %>
+  <div class="main">
+    <%- include('./includes/dh') %>
+   <div class="autopagerize_page_element">
+    <div class="content">
+         
+     <div class="post animated fadeInDown">
+  <div class="tags-container">
+            <% site.tags.forEach(function(tag) { %>
+              <a class="jinggetag" href="<%= tag.link %>"><%= tag.name %></a>
+            
+<% }); %>
+            
+          </div>
+
+      </div>
+     </div>
+    
+  
+    </div>
+   </div>
+  </div>
+ <%- include('./includes/footjs') %>
+ </body>
+</html>
